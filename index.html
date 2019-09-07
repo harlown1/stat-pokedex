@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<!--  
+    Name: Nicholas Harlow
+    Date: November 1, 2018
+    Section: 154 AL
+    A pokedex to show the stats of each of the original 151 pokemon
+ -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pokemon Stat Pokedex</title>
+    <link href="index.css" rel="stylesheet" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/poke_header_main.png" alt="Pokemon Header Image"/>
+    </header>
+    <main>
+      <section>
+        <div id="sprites">
+          <p>Pokemon Name</p>
+          <img src="images/pokeball.png" alt="plain pokeball"/>
+        </div>
+        <div id="stats">
+          <div>
+            <p>Attack</p>
+            <div id="attack"></div>
+          </div>
+          <div>
+            <p>Defense</p>
+            <div id="defense"></div>
+          </div>
+          <div>
+            <p>Health</p>
+            <div id="hp"></div>
+          </div>
+          <div>
+            <p>Special-Attack</p>
+            <div id="special-attack"></div>
+          </div>
+          <div>
+            <p>Special-Defense</p>
+            <div id="special-defense"></div>
+          </div>
+          <div>
+            <p>Speed</p>
+            <div id="speed"></div>
+          </div>
+        </div>
+      </section>
+      <nav>
+        <div>
+          <input type="text" id="search" placeholder="Search..." />
+        </div>
+        <div id="list-div">
+          <ul id="list">
+          </ul>
+        </div>
+      </nav>
+    </main>
+  </body>
+</html>
