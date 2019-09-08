@@ -149,8 +149,8 @@
       let singleStat = stats[i];
       let statName = singleStat.stat.name;
       let statValue = singleStat.base_stat;
-      document.getElementById(statName).style["width"] = (statValue / 255) * 100 + "%";
-      
+      document.getElementById(statName).style["width"] = ((statValue / 255) * 100) + "%";
+      document.getElementById(statName + "-val").innerText = statValue;
     }
   }
 

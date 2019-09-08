@@ -17,13 +17,13 @@ body {
   color:black;
 }
 
-header, main {
+header, main, footer {
   width: 70vw;
   background: red;
 }
 
 header {
-  height: 14.5vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
   /* border: 2px solid black; */
@@ -39,7 +39,7 @@ header img {
 }
 
 main {
-  height: 85vh;
+  height: 80vh;
   display: flex;
 }
 
@@ -82,10 +82,14 @@ section {
   padding-right: 20px;
 }
 
-#stats>div>div {
+#stats>div>div>div {
   width: 90%;
   height: 20px;
   border: 5px solid black;
+}
+
+#stats>div>div {
+  display: flex;
 }
 
 #stats p {
@@ -154,6 +158,14 @@ li {
   width: 100%;
   border: 1px solid red;
   height: 40px;
+}
+
+footer {
+  height: 5vh;
+}
+
+footer p {
+  text-align: center;
 }
 
 .hidden {
